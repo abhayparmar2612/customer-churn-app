@@ -3,9 +3,9 @@ import pandas as pd
 from joblib import load
 
 # ---------------- LOAD ARTIFACTS ----------------
-model = load("../models/churn_model.pkl")
-encoders = load("../models/encoders.pkl")
-scaler = load("../models/scaler.pkl")
+model = load("models/churn_model.pkl")
+encoders = load("models/encoders.pkl")
+scaler = load("models/scaler.pkl")
 
 st.set_page_config(page_title="Customer Churn Predictor", layout="centered")
 st.title("📉 Customer Churn Prediction System")
